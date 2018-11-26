@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico:400,500);
+ html, 
+  body{
+    background-color:DarkSalmon;
+    text-align:center;
+    font-family:'Pacifico'
+}
+  .labels {
+ /* background-color:white;*/
+  display: inline-block;
+  text-align: left;
+  width: 20%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 0px;    
+}
+.rightTab{
+  display:inline-block;
+  text-align:left;
+  width:50%;
+  vertical-align:middle;
+  border-color:red;
+  border-width:20px;
+  
+  /*margin-left:5px;*/
+  /*background-color:green;*/
+}
+
+.input-field{
+  width:280px;
+  high:20px;
+  padding:5px;
+  margin:10px;
+  border:1px solid #c0c0c0;
+  border-radius:50px;
+  }
+
+
+#form-outer{
+  background-color:MistyRose;
+  margin:0 auto;
+  border-radius:50px;
+  width:75%;
+  max-width:900px;
+  padding:10px;
+  padding-top:20px;
+   
+}
+
+#header-outer{
+  background-color:SpringGreen;
+  margin:0 auto;
+  border-radius: 60%;
+    width:30%;
+  }
+#second-part-form{
+  background-color:Plum;
+  margin:0 auto;
+  border-radius:50px;
+  width:75%;
+  max-widht:900px;
+  padding:0px;  
+}
+
+.animals, input[type="radio"]{  
+  display:inline;
+  position:relative;
+  vertical-align:center;
+  float: left;
+  margin-right: auto;
+  /*background-color:red;*/
+  /*display: block;*/
+}
+ 
+.radio, .checkbox {
+  position: relative;
+  left: -70px;
+  margin-left: 80px;
+  /*display: block;*/
+  padding-bottom: 10px;
+  /*background-color:red;*/
+  width:100%;
+} 
+
+#specialLabel,input[type="checkbox"]{
+  /*background-color:pink;*/
+  padding-top:35px;
+}
+
+.dropdown{
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  margin-left:40px;
+}
+
+.pic-shape{
+ border-width:1px;
+ border-radius:50%;
+  border-color:green;
+  border-style:solid;
+
+  /*object-fit: contain;*/
+}
+
+.pic {
+  width:75px;
+  height:75px;
+  margin-left:60%;
+  vertical-align:middle;
+  
+}
+
+.input-field {
+  height: 20px;
+  width: 300px;
+  padding: 5px;
+  margin-left: 20px;
+  border: 2px solid #c0c0c0;
+  border-radius: 50px;
+}
+
+.userHobbies,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+  margin-left:20px;
+}
+
+#sections{
+  position:relative;
+  align:middle;
+  border:1px solid #c0c0c0;
+  border-radius:50px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+  }
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
