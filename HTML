@@ -1,0 +1,79 @@
+<div id="header-outer">
+<h1 id="title">Prado´s Survey</h1>
+  </div>
+<div id="form-outer">
+<p id="description"> This is my survey and I hope you enjoy it!</p>
+  <form id="survey-form">
+  <div class="rowTab">
+    <div class="labels">
+  <label id="name-label"  for="name">*Name</label>
+    </div>
+    <div class="rightTab">
+      <input "autofocus" type="text" name="name" id="name" class="input-field" placeholder="Enter your Name" required>
+    </div>
+  </div>
+  <div class="rowTab">
+    <div class="labels">
+      <label id="email-label" for="email">*E-mail</label>
+    </div>
+    <div class="rightTab">
+      <input  type="email" name="email" id="email" class="input-field" placeholder="Enter your e-mail" required>
+    </div>
+  </div>
+    <div class="rowTab">
+      <div class="labels">
+        <label id="age-label" for="age">*Age</label>
+      </div>
+      <div class="rightTab">
+        <input type="number" name="age" id="number" min="1" max="150" class="input-field" placeholder="Age">
+      </div>
+  </div>
+    <p id="second-description"> About you:</p>
+  <div class="rowTab">
+    <div class="labels">
+      <label for="food">What is your favourite food?</label>
+    </div>
+    <div class="rightTab">
+      <select id="dropdown" name="food" class="dropdown">
+        <option disabled value>Select an option</option>
+        <option value="pasta">Pasta</option>
+        <option value="steak">Steak</option>
+        <option value="iceCream">IceCream</option>
+        <option value="popcorns">PopCorns</option>
+      </select>
+        </div>
+    </div>
+      <div class="RowTab">
+        <div class="labels" id="specialLabel">
+          <label for="animals">If you could have an animal at home...</label>
+        </div>
+        <div class="rightTab" id="sections">
+          <ul style="list-style: none;">
+          <li class="radio"><label>Elephant<input name="radio-buttons" value="1" type="radio" class="animals"><img class="pic pic-shape" src="https://mongabay-images.s3.amazonaws.com/i/kenya/600/kenya_2808.jpg"></label></li>
+          <li class="radio"><label>Dragon<input name="radio-buttons" value="2" type="radio" class="animals"><img class="pic pic-shape" src="https://www.radiovanguardia.com/wp-content/uploads/2017/05/Entretenimiento-Crecen-los.jpg" ></label></li>
+            <li class="radio"><label>Zebra<input name="radio-buttons" value="3" type="radio" class="animals"><img class="pic pic-shape" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Zebra_standing_alone_crop.jpg/648px-Zebra_standing_alone_crop.jpg" ></label></li>
+            <li class="radio"><label>Sheep<input name="radio-buttons" value="4" type="radio" class="animals"><img class="pic pic-shape" src="https://vignette.wikia.nocookie.net/parody/images/b/ba/Sheep.jpg/revision/latest?cb=20151126182949"></label></li>
+          </ul>
+          </div>           
+    </div>
+    <div class="rowTab">
+      <p> My hobbies are:</p>
+            <div class="rightTab" id="sections">
+              <ul id="preferences" style="list-style: none;">
+          <li class="checkbox"><label><input name="hobbies" value="1" type="checkbox" class="userHobbies">Climbing mountains</label></li>
+          <li class="checkbox"><label><input name="hobbies" value="1" type="checkbox" class="userHobbies">Cooking</label></li>
+         <li class="checkbox"><label><input name="hobbies" value="2" type="checkbox" class="userHobbies">Coding</label></li>
+         <li class="checkbox"><label><input name="hobbies" value="3" type="checkbox" class="userHobbies">Playing guitarr</label></li>
+          <li class="checkbox"><label><input name="hobbies" value="4" type="checkbox" class="userHobbies">Running</label></li>
+          <li class="checkbox"><label><input name="hobbies" value="5" type="checkbox" class="userHobbies">Watching TV</label></li>
+                </div>
+      </div>
+      <div class="rowTab">
+        <p> Tell me something funny:</p>
+    <div class="rightTab">
+           <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+      </div>
+    </div>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+</div>
